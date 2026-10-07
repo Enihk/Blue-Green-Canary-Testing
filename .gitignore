@@ -1,0 +1,44 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+.terraformrc
+terraform.rc
+crash.log
+crash.*.log
+
+# SSH Keys and sensitive data
+keys/
+*.pem
+*.key
+*.crt
+*.cert
+*.pub
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and backups
+*.log
+*.backup
+*.bak
+*.tmp
+*.tfplan
