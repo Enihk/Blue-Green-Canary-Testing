@@ -8,9 +8,16 @@ Two identical Dashboard ASGs always running. Public ALB routes by host-header.
 | Blue  | v0.1.0 | Original |
 | Green | v0.2.0 | Light-blue bg, Times New Roman |
 
-| Blue (v0.1.0) | Green (v0.2.0) |
-|:---:|:---:|
-| ![Blue dashboard](./images/blue.png) | ![Green dashboard](./images/green.png) |
+<table>
+  <tr>
+    <td align="center"><b>Blue (v0.1.0)</b></td>
+    <td align="center"><b>Green (v0.2.0)</b></td>
+  </tr>
+  <tr>
+    <td><img src="./images/blue.png"  alt="Blue dashboard v0.1.0"  height="320"></td>
+    <td><img src="./images/green.png" alt="Green dashboard v0.2.0" height="320"></td>
+  </tr>
+</table>
 
 ## Layout
 
